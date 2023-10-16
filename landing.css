@@ -1,0 +1,487 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Jost', sans-serif;
+    }
+
+
+.hero {
+    height: 20vh;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 5%;
+    padding-right: 7%;
+    margin-top:-2%;
+}
+.logo {
+    width: 150px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 4px 30px;
+    margin-top: 15px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: rgb(0, 60, 255);
+    transition: 0.3s;
+}
+
+#button1 {
+    border: solid 1px rgb(0, 60, 255);
+    background-color:  white;
+    /* padding: 8px 25px; */
+    margin-right: 5%;
+    border-radius: 10px;
+    color:rgb(0, 60, 255);
+    font-weight: bold;
+    transition: .4s;
+    width: 130px;
+    height: 40px;
+    font-size: 15px;
+}
+
+.first-button {
+    border: rgb(0, 60, 255);
+    background-color:  blue;
+    /* padding: 12px 30px; */
+    color: white;
+    margin-left: 5%;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: .4s;
+    width: 130px;
+    height: 40px;
+    font-size: 15px;
+}
+
+.test {
+    display: flex;
+    transition: .4s;
+    margin-left: 1rem;
+}
+
+.first-button:hover {
+    transform: scale(1.1, 1.2);
+    cursor: pointer;
+}
+
+#button1 :hover {
+    transform: scale(1.1, 1.2);
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    /* column-gap: 2vh; */
+    margin: 0 auto 0px 15vh;
+    /* text-align: left; */
+    /* column-gap: 50px; */
+    /* width: 50%;
+    float: left; */
+}
+
+.mainn {
+    display: block;
+    width: 600px;
+    height: 600px;
+}
+
+#h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#p {
+    margin-bottom: 25px;
+}
+
+#signup {
+    padding: 10px;
+    font-weight: bolder;
+    background-color: rgb(0, 60, 255);
+    color:white;
+    border-radius: 10px;
+    border: solid 2px rgb(0, 60, 255);
+    width: 150px;
+    height: 50px;
+    margin-bottom: 20px;
+    transition: .4s;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+#chatw {
+    padding: 10px;
+    font-weight: bolder;
+    background-color:  white;
+    color:rgb(0, 60, 255);
+    border-radius: 10px;
+    border: solid 1px rgb(0, 60, 255);
+    width: 150px;
+    height: 50px;
+    margin-bottom: 20px;
+    transition: .4s;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+#signup:hover {
+    transform: scale(1.1, 1.2);
+    cursor: pointer;
+}
+
+#chatw:hover {
+    transform: scale(1.1, 1.2);
+    cursor: pointer;
+}
+
+#x, #xx {
+    font-weight: bolder;
+}
+
+.textafter, #p {
+    color: darkgrey;
+    font-size: larger;
+}
+
+
+.trial {
+    display: flex;
+}
+
+.xxx {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+#z {
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+.trial {
+    font-size: small;
+}
+
+.picture1 {
+    display: flex;
+    margin: -35px auto 0 15vh; 
+       
+}
+
+
+.ndpart {
+    margin: 0 15vh 0px 15vh;
+    text-align: center;
+    font-size: 16px;
+}
+
+.ndpart::before {
+    content: "";
+    display: block;
+    width: 800px;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    left: 23%;
+    top: 90%;
+}
+
+#ndhead { 
+    margin-top: 8vh;
+    margin-bottom: 3vh;
+}
+
+.np {
+    display: block;
+    /* margin-top: 5px; */
+}
+
+.rowe {
+    text-align: center;
+}
+
+.rowe button {
+    /* padding: 10px 20px; */
+    border-radius: 10px;
+    margin-top: 5vh;
+}
+
+#buttond1 {
+    background-color: rgb(0, 60, 255);
+    margin-right: 20vh;
+    padding: 25px;
+    width: 110px;
+    height: 120px;
+    font-weight: bolder;
+}
+
+#buttond1a {
+    border-radius: 50px;
+}
+
+#buttond2 {
+    margin-right: 20vh;
+    background-color: whitesmoke;
+    padding: 30px;
+    font-weight: bolder;
+    
+}
+#buttond3 {
+    margin-right: 20vh;
+    background-color: whitesmoke;
+    width: 110px;
+    height: 120px;
+    font-weight: bolder;
+}
+#buttond4 {
+    margin-right: vh;
+    background-color: whitesmoke;
+    width: 110px;
+    height: 120px;
+    font-weight: bolder;
+}
+
+.middleimg {
+    display: flex;
+    margin: 15vh 15vh 0 15vh;
+    align-content: center;
+    border: 1px solid gray;
+    border-radius: 15px;
+    /* color: white; */
+    
+}
+
+#imagen {
+    padding: 100px 0;
+    background-color: white;
+    border-radius: 15px 0px 15px 15px;
+    
+}
+
+.texto {
+    padding: 50px 40px 50px 30px;
+    border-radius: 0px 15px 15px 0;
+    background-color:  rgb(0, 60, 255);
+    color: white;
+}
+
+#headtexto {
+    margin-bottom: 5vh;
+    
+}
+
+#boddytexto {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.smallbody {
+    margin-top: 5vh;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.middleimg button {
+margin-top: 5vh;
+width: 30vh;
+height: 5vh;
+border-radius: 5px;
+border: solid 2px white;
+background-color: transparent;
+color: white;
+font-weight: bolder;
+transition: .4s;
+}
+
+.middleimg button:hover {
+    transform: scale(1.1, 1.2);
+    cursor: pointer;
+}
+
+#solo {
+    text-align: center;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+
+.icons{
+    margin: 0 15px 0 15px;
+    text-align: center;
+    align-items: center;
+}
+
+
+#firstb4 {
+    width: 20vh;
+    height: 5vh;
+    background-color: transparent;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+#firstb4:hover {
+    transform: scale(1, 1.1);
+    cursor: pointer;
+}
+
+#setup1 {
+    width: 50%;
+    margin-left: 25vh;
+}
+
+#setup2 {
+    width: 50%;
+    margin-right: 25vh;
+    margin-left: 10vh;
+}
+
+#secondb4 {
+    width: 20vh;
+    height: 5vh;
+    background-color: transparent;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+#secondb4:hover {
+    transform: scale(1, 1.1);
+    cursor: pointer;
+}
+
+#setup3 {
+    width: 50%;
+    margin-left: 25vh;
+    margin-top: 10vh;
+}
+
+#thirdb4 {
+    width: 20vh;
+    height: 5vh;
+    background-color: transparent;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+#thirdb4:hover {
+    transform: scale(1, 1.1);
+    cursor: pointer;
+}
+
+#setup4 {
+    width: 50%;
+    margin-right: 25vh;
+    margin-left: 12.5vh;
+    margin-top: 10vh;
+}
+
+#four4b {
+    width: 20vh;
+    height: 5vh;
+    background-color: transparent;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+#four4b:hover {
+    transform: scale(1, 1.1);
+    cursor: pointer;
+}
+
+.row {
+    margin-bottom: 5vh;
+}
+.rowfinal {
+    margin-top: 25vh;
+    background-color: rgb(0, 60, 255);
+    text-align: center;
+    color: white;
+    padding: 5px 30px 15px 30px;
+    height: 45vh;
+}
+
+
+#finalh {
+    margin-top: 5vh;
+    font-weight: bolder;
+}
+
+#finalp {
+    font-size: large;
+    font-weight: bolder;
+}
+
+
+#buttonf1 {
+    width: 20vh;
+    height: 5vh;
+    background-color: greenyellow;
+    border-radius: 5px;
+    transition: .4s;
+    margin-right: 8vh;
+    color: white;
+    font-weight: bolder;
+}
+
+#buttonf1:hover {
+    transform: scale(1.1, 1.2);
+    cursor: pointer;
+}
+
+#buttonf2 {
+    width: 20vh;
+    height: 5vh;
+    background-color: white;
+    border-radius: 5px;
+    transition: .4s;
+    color: rgb(0, 60, 255);
+    font-weight: bolder;
+}
+
+#buttonf2:hover {
+    transform: scale(1.1, 1.2);
+    cursor: pointer;
+}
+
+.trial1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+}
+
+#trial2 {
+    margin-right: 5px;
+}
+
+#trial3 {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#trial4 {
+    margin-left: 5px;
+}
